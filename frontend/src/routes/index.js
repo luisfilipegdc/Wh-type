@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-
+import Typebot from "../pages/Typebot/";
 import LoggedInLayout from "../layout";
 import Dashboard from "../pages/Dashboard/";
 import TicketResponsiveContainer from "../pages/TicketResponsiveContainer";
@@ -128,7 +128,8 @@ const Routes = () => {
                   path="/relatorios"
                   component={Relatorios}
                   isPrivate
-                />				
+                />	
+                <Route exact path="/typebot" component={Typebot} isPrivate />		 
                 <Route
                   exact
                   path="/financeiro"

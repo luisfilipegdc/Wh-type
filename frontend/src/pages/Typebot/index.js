@@ -25,7 +25,7 @@ const Typebot = () => {
       <div className={classes.iframe}>
         <iframe
           className={classes.iframe}
-          src="https://app.typebot.live/pt-BR/typebots"
+          src="https://typebot.whatisac.com.br/pt-BR/typebots"
         ></iframe>
       </div>
     </>
