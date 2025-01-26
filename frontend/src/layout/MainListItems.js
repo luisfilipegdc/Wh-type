@@ -554,11 +554,6 @@ const MainListItems = (props) => {
               />
             )}
             <ListItemLink
-              to="/typebot"
-              primary={i18n.t("Typebot")}
-              icon={<AccountTreeOutlinedIcon />}
-            />
-            <ListItemLink
               to="/connections"
               primary={i18n.t("mainDrawer.listItems.connections")}
               icon={
@@ -577,7 +572,6 @@ const MainListItems = (props) => {
               primary={i18n.t("mainDrawer.listItems.queues")}
               icon={<AccountTreeOutlinedIcon />}
             />
-
             <ListItemLink
               to="/users"
               primary={i18n.t("mainDrawer.listItems.users")}
